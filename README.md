@@ -16,6 +16,11 @@ A small SketchApp extension that introduce frictionless `Finder` like navigation
 
 ## Simple Shortcuts Schema & Mission Control
 
+1. Open `System Preferences` -> `Keyboard` -> `Shortcuts` -> `Mission Control` and disable the following highlighted system shortcuts:
+
+![Screencast](https://github.com/turbobabr/sketch-wanderer/blob/master/docs/intro-screencast.gif?raw=true)
+ 
+
 
 ## Feedback
 
