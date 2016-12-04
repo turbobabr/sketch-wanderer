@@ -18,18 +18,18 @@ Wanderer is very simple to use, just recall how navigation works in Finder and u
 
 
 ## The complete list of supported commands:
-| Command     | Shortcut |
-| :------- | :---- |
-| Move Up | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>↑</kbd> |
-| Move Down | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>↓</kbd> |
-| Expand Group    | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>→</kbd>   |
-| Collapse Group    | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>←</kbd>   |
-|||
-| Paste X    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>x</kbd>   |
-| Paste Y    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>y</kbd>   |
-| Paste Position *(X & Y)*    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd>   |
-| Paste Width Porportionally**    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>w</kbd>   |
-| Paste Height Porportionally**    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>h</kbd>   |
+| Command     | Shortcut | Description |
+| :------- | :---- | :---- |
+| Move Up | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>↑</kbd> | Selects layer above |
+| Move Down | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>↓</kbd> | Selects layer below |
+| Expand Group    | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>→</kbd>   | Expands selected group, shape group or artboard |
+| Collapse Group    | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>←</kbd>   | Collapses selected group, shape group or artboard. When run on already collapsed group, it's parent will be collapsed. |
+| Select Up | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>↑</kbd> | Finder like multi-select by holding shift and selecting files via arrows |
+| Select Down    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>↓</kbd>   | Finder like multi-select by holding shift and selecting files via arrows |
+| Expand Artboard    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>→</kbd>   | Expands all child groups in the current artboard. |
+| Collapse Artboard    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>←</kbd>   | Collapses all child groups in the current artboard and artboard itself.  |
+| Select Artboard Above    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>→</kbd>   | Selects artboard above current arboard. In case some child layer is selected, this command will select artboard itself.  |
+| Select Artboard Below    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>←</kbd>   | Selects artboard below current artboard. |
 
 
 ## Simple Shortcuts Schema & Mission Control
