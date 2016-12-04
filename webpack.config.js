@@ -2,7 +2,7 @@
 
 var webpack = require('webpack');
 var path = require('path');
-var SketchExtensionBundlerPlugin = require('sketch-fusion-extension-plugin-webpack');
+var SketchFusionExtensionBundlerPlugin = require('sketch-fusion-extension-plugin-webpack');
 
 const CONTEXT = path.resolve(__dirname),
   createPath = function(nPath) { return path.resolve(CONTEXT, nPath); },
@@ -34,7 +34,7 @@ module.exports = {
     },{ test: /\.json$/, loader: "json" }]
   },
   plugins:[
-    new SketchExtensionBundlerPlugin({
+    new SketchFusionExtensionBundlerPlugin({
       autoDeployToSketch: false,
       buildReleaseVersion: true
     }),

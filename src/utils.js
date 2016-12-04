@@ -81,6 +81,10 @@ Utils.filterArray = (array,predicateFormat) => {
   return array.filteredArrayUsingPredicate(NSPredicate.predicateWithFormat(predicateFormat));
 };
 
+Utils.findOne = (array,predicateFormat) => {
+  return Utils.filterArray(array,predicateFormat).firstObject();
+};
+
 Utils.showMessage = (msg) => {
   const document = Utils.currentDocument();
   document.showMessage(`[walker]: ${msg}`);

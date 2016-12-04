@@ -15,3 +15,15 @@ export const ShortcutsSchema = {
   ControlOnly: 'controlOnly'
 };
 
+export const TargetGroupType = {
+  Selection: 'selection',
+  Artboard: 'artboard',
+  ArtboardGraph: 'artboardGraph',
+  PageGraph: 'pageGraph'
+};
+
+export const CanvasAction = {
+  None: 'none',
+  Center: 'center',
+  ZoomToFit: 'center'
+};

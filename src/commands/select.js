@@ -4,20 +4,13 @@ import { Direction, GroupExpandedType } from '../constants';
 import ActionsManager, { ActionType } from '../actions-manager';
 
 const select = (context, direction) => {
-  console.log(`Select: ${direction}`);
-
   var view = Utils.layerListView();
-
-  console.log(`Last Action: ${ActionsManager.lastAction}`);
   if (!_.includes([ActionType.SelectDown, ActionType.SelectUp],ActionsManager.lastAction)) {
-    console.log("Ahtung!! Setting up base row index !");
     ActionsManager.baseRowIndex = view.selectedRow();
   }
 
   ActionsManager.berserkBaseRowIndex = view.selectedRow();
   var baseRowIndex = ActionsManager.baseRowIndex;
-
-  console.log(`Base row index: ${baseRowIndex}`);
 
   const selectedIndexes = view.selectedRowIndexes();
   const firstSelectedIndex = selectedIndexes.firstIndex();

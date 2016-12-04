@@ -8,7 +8,9 @@ export const ActionType = {
   MoveUp: 'moveUp',
   MoveDown: 'moveDown',
   Expand: 'expand',
-  Collapse: 'collapse'
+  Collapse: 'collapse',
+  SelectArtboardAbove: 'selectArtboardAbove',
+  SelectArtboardBelow: 'selectArtboardBelow'
 };
 
 const keyForProperty = (prop) => {

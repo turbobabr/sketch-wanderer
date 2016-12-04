@@ -6,11 +6,10 @@ import move from './commands/move';
 import expand from './commands/expand';
 import collapse from './commands/collapse';
 import select from './commands/select';
+import selectArtboard from './commands/select-artboard';
 import switchShortcutsSchema from './commands/switch-shortcuts-schema';
 import ActionsManager, { ActionType } from './actions-manager';
-
-
-import { Direction, ShortcutsSchema } from './constants';
+import { Direction, ShortcutsSchema, TargetGroupType } from './constants';
 
 DefineSketchExtension({
   name: 'Wanderer',
@@ -53,12 +52,39 @@ DefineSketchExtension({
         ActionsManager.setLastAction(ActionType.SelectDown);
       }
     },
+    selectArtboardAbove: {
+      name: "Select Artboard Above",
+      shortcut: "control-shift-option-up",
+      run(context) {
+        Utils.runForever();
+        selectArtboard(context,Direction.Up);
+        ActionsManager.setLastAction(ActionType.SelectArtboardAbove);
+      }
+    },
+    selectArtboardBelow: {
+      name: "Select Artboard Below",
+      shortcut: "control-shift-option-down",
+      run(context) {
+        Utils.runForever();
+        selectArtboard(context,Direction.Down);
+        ActionsManager.setLastAction(ActionType.SelectArtboardBelow);
+      }
+    },
     expand: {
       name: "Expand Group",
       shortcut: "control-right",
       run(context) {
         Utils.runForever();
-        expand(context);
+        expand(context,TargetGroupType.Selection);
+        ActionsManager.setLastAction(ActionType.Expand);
+      }
+    },
+    expandArtboard: {
+      name: "Expand Artboard",
+      shortcut: "control-shift-right",
+      run(context) {
+        Utils.runForever();
+        expand(context,TargetGroupType.ArtboardGraph);
         ActionsManager.setLastAction(ActionType.Expand);
       }
     },
@@ -67,7 +93,16 @@ DefineSketchExtension({
       shortcut: "control-left",
       run(context) {
         Utils.runForever();
-        collapse(context);
+        collapse(context,TargetGroupType.Selection);
+        ActionsManager.setLastAction(ActionType.Collapse);
+      }
+    },
+    collapseArtboard: {
+      name: "Collapse Artboard",
+      shortcut: "control-shift-left",
+      run(context) {
+        Utils.runForever();
+        collapse(context,TargetGroupType.ArtboardGraph);
         ActionsManager.setLastAction(ActionType.Collapse);
       }
     },
@@ -86,7 +121,7 @@ DefineSketchExtension({
     help: {
       name: "Home page....",
       run() {
-        Utils.openUrlInDefaultBrowser('https://github.com/turbobabr/duplicator');
+        Utils.openUrlInDefaultBrowser('https://github.com/turbobabr/sketch-wanderer');
       }
     }
   },
@@ -100,6 +135,12 @@ DefineSketchExtension({
       '-',
       'expand',
       'collapse',
+      '-',
+      'expandArtboard',
+      'collapseArtboard',
+      '-',
+      'selectArtboardAbove',
+      'selectArtboardBelow',
       '-',
       {
         title: 'Shortcuts Schema',
