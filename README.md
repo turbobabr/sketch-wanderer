@@ -10,7 +10,7 @@ A small SketchApp extension that introduce frictionless `Finder` like navigation
 
 ## Installation
 
-1. [Download](https://github.com/turbobabr/duplicator/archive/duplicator-v1.1.zip) the plugin.
+1. [Download](https://github.com/turbobabr/sketch-wanderer/raw/master/releases/sketch-wanderer-0.1.0.zip) the plugin.
 2. Unpack the archive and double click on `com.turbobabr.sketch.wanderer.sketchplugin` file to install it into Sketch plugins folder.
 3. Enjoy! :)
 
