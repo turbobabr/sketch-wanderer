@@ -64,8 +64,8 @@ It's quite nice, but not perfect - the better solution is to use shorter set `co
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">Move Up</td>
-<td style="text-align:left" width="200"><kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>↑</kbd></td>
+<td style="text-align:left" width="200">Move Up</td>
+<td style="text-align:left" width="180"><kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>↑</kbd></td>
 <td style="text-align:left">Selects layer above</td>
 </tr>
 <tr>
