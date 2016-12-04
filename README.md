@@ -23,11 +23,11 @@ Wanderer is very simple to use, just recall how navigation works in Finder and u
 | Move Up | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>↑</kbd> | Selects layer above |
 | Move Down | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>↓</kbd> | Selects layer below |
 | Expand Group    | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>→</kbd>   | Expands selected group, shape group or artboard |
-| Collapse Group    | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>←</kbd>   | Collapses selected group, shape group or artboard.<br> When run on already collapsed group, it's parent will be collapsed. |
+| Collapse Group    | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>←</kbd>   | Collapses selected group, shape group or artboard.<br> When run on already collapsed group, it's parent<br> will be collapsed. |
 | Select Up | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>↑</kbd> | Finder like multi-select by holding shift and selecting files<br> via arrows. |
 | Select Down    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>↓</kbd>   | Finder like multi-select by holding shift and selecting files<br> via arrows. |
 | Expand Artboard    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>→</kbd>   | Expands all child groups in the current artboard. |
-| Collapse Artboard    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>←</kbd>   | Collapses all child groups in the current artboard and artboard itself.  |
+| Collapse Artboard    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>←</kbd>   | Collapses all child groups in the current artboard<br> and artboard itself.  |
 | Select Artboard Above    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>→</kbd>   | Selects artboard above current arboard.<br> In case some child layer is selected, this command will select artboard itself.  |
 | Select Artboard Below    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>←</kbd>   | Selects artboard below current artboard. |
 
@@ -53,6 +53,16 @@ It's quite nice, but not perfect - the better solution is to use shorter set `co
 ![Successful Setup](https://github.com/turbobabr/sketch-wanderer/blob/master/docs/control-arrows-shortcuts.png?raw=true)
 
 > Note: In case you'll need to revert changes, just run `Plugins -> Wanderer -> Shortcuts Schema -> control-option+arrows` command.
+
+<table>
+<tbody>
+<tr>
+<td width="25">text asdfasdfasdfaf </td>
+<td>text asdfsdf</td>
+<td width="120">Selects artboard above current arboard.<br> In case some child layer is selected, this command will select artboard itself.</td>
+</tr>
+</tbody>
+</table>
  
 
 ## Feedback
