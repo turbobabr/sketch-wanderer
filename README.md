@@ -6,11 +6,15 @@ A small SketchApp extension that introduce frictionless `Finder` like navigation
 
 ![Screencast](https://github.com/turbobabr/sketch-wanderer/blob/master/docs/intro-screencast.gif?raw=true)
 
+
+
 ## Installation
 
-1. Download  archive.
-2. Unpack and double click on `com.turbobabr.sketch.wanderer.sketchplugin` file to install it into Sketch plugins folder.
+1. [Download](https://github.com/turbobabr/duplicator/archive/duplicator-v1.1.zip) the plugin.
+2. Unpack the archive and double click on `com.turbobabr.sketch.wanderer.sketchplugin` file to install it into Sketch plugins folder.
 3. Enjoy! :)
+
+
 
 ## Usage
 
@@ -82,6 +86,7 @@ Wanderer is very simple to use, just recall how navigation works in Finder and u
 </table>
 
 
+
 ## Simple Shortcuts Schema & Mission Control
 
 By default Wanderer uses `control-option+arrows` shortcuts for the most common commands like `Move Up`, `Move Down` and `Expand/Collapse Group`: 
@@ -104,10 +109,13 @@ It's quite nice, but not perfect - the better solution is to use shorter set `co
 
 > Note: In case you'll need to revert changes, just run `Plugins -> Wanderer -> Shortcuts Schema -> control-option+arrows` command.
  
+ 
 
 ## Feedback
 
 If you discover any issue or have any suggestions for improvement of the plugin, please [open an issue](https://github.com/turbobabr/sketch-wanderer/issues) or find me on twitter [@turbobabr](http://twitter.com/turbobabr).
+
+
 
 ## License
 
