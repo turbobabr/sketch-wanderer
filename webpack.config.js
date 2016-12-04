@@ -2,7 +2,7 @@
 
 var webpack = require('webpack');
 var path = require('path');
-var SketchFusionExtensionBundlerPlugin = require('sketch-fusion-extension-plugin-webpack');
+var SketchFusionExtensionPlugin = require('sketch-fusion-extension-plugin-webpack');
 
 const CONTEXT = path.resolve(__dirname),
   createPath = function(nPath) { return path.resolve(CONTEXT, nPath); },
@@ -34,14 +34,10 @@ module.exports = {
     },{ test: /\.json$/, loader: "json" }]
   },
   plugins:[
-    new SketchFusionExtensionBundlerPlugin({
-      autoDeployToSketch: false,
-      buildReleaseVersion: true
+    new SketchFusionExtensionPlugin({
+      buildReleaseVersion: true,
+      autoDeployToSketch: true
     }),
-    /*
-    new webpack.optimize.UglifyJsPlugin({
-      compress: { warnings: false }
-    })
-    */
+    new webpack.optimize.UglifyJsPlugin({ compress: { warnings: false } })
   ]
 };
