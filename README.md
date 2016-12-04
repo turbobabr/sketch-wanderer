@@ -14,6 +14,24 @@ A small SketchApp extension that introduce frictionless `Finder` like navigation
 
 ## Usage
 
+Wanderer is very simple to use, just recall how navigation works in Finder and use any arrow keys with `control-option` modifiers.
+
+
+## The complete list of supported commands:
+| Command     | Shortcut |
+| :------- | :---- |
+| Move Up | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>↑</kbd> |
+| Move Down | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>↓</kbd> |
+| Expand Group    | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>→</kbd>   |
+| Collapse Group    | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>←</kbd>   |
+|||
+| Paste X    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>x</kbd>   |
+| Paste Y    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>y</kbd>   |
+| Paste Position *(X & Y)*    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd>   |
+| Paste Width Porportionally**    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>w</kbd>   |
+| Paste Height Porportionally**    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>h</kbd>   |
+
+
 ## Simple Shortcuts Schema & Mission Control
 
 By default Wanderer uses `control-option+arrows` shortcuts for the most common commands like `Move Up`, `Move Down` and `Expand/Collapse Group`: 
@@ -28,11 +46,13 @@ It's quite nice, but not perfect - the better solution is to use shorter set `co
 
 2. In Sketch select `Plugins -> Wanderer -> Shortcuts Schema -> control+arrows` command:
 
-![Mission Control Shortcuts](https://github.com/turbobabr/sketch-wanderer/blob/master/docs/mission-control-shortcuts.png?raw=true)
+![Switching shortcuts schema](https://github.com/turbobabr/sketch-wanderer/blob/master/docs/switching-shortcuts-schema.png?raw=true)
 
 3. Wait 10-15 seconds while Sketch reloading changes and check whether new shortcuts are setup correctly:
 
-![Mission Control Shortcuts](https://github.com/turbobabr/sketch-wanderer/blob/master/docs/replacible-shortcuts.png?raw=true)
+![Successful Setup](https://github.com/turbobabr/sketch-wanderer/blob/master/docs/control-arrows-shortcuts.png?raw=true)
+
+> Note: In case you'll need to revert changes, just run `Plugins -> Wanderer -> Shortcuts Schema -> control-option+arrows` command.
  
 
 ## Feedback
