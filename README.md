@@ -6,6 +6,16 @@ A small SketchApp extension that introduce frictionless `Finder` like navigation
 
 ![Screencast](https://github.com/turbobabr/sketch-wanderer/blob/master/docs/intro-screencast.gif?raw=true)
 
+## Installation
+
+1. Download  archive.
+2. Unpack and double click on `com.turbobabr.sketch.wanderer.sketchplugin` file to install it into Sketch plugins folder.
+3. Enjoy! :)
+
+## Usage
+
+## Simple Shortcuts Schema & Mission Control
+
 
 ## Feedback
 

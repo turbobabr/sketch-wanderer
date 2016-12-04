@@ -1,5 +1,6 @@
 
 import Utils from '../utils';
+import { ShortcutsSchema } from '../constants';
 
 const KeyMap = {
   Up: '↑',

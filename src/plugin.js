@@ -18,7 +18,7 @@ DefineSketchExtension({
   commands: {
     moveUp: {
       name: "Move Up",
-      shortcut: "control-up",
+      shortcut: "control-option-up",
       run(context) {
         Utils.runForever();
         move(context,Direction.Up);
@@ -27,7 +27,7 @@ DefineSketchExtension({
     },
     moveDown: {
       name: "Move Down",
-      shortcut: "control-down",
+      shortcut: "control-option-down",
       run(context) {
         Utils.runForever();
         move(context,Direction.Down);
@@ -72,7 +72,7 @@ DefineSketchExtension({
     },
     expand: {
       name: "Expand Group",
-      shortcut: "control-right",
+      shortcut: "control-option-right",
       run(context) {
         Utils.runForever();
         expand(context,TargetGroupType.Selection);
@@ -90,7 +90,7 @@ DefineSketchExtension({
     },
     collapse: {
       name: "Collapse Group",
-      shortcut: "control-left",
+      shortcut: "control-option-left",
       run(context) {
         Utils.runForever();
         collapse(context,TargetGroupType.Selection);
@@ -119,7 +119,7 @@ DefineSketchExtension({
       }
     },
     help: {
-      name: "Home page....",
+      name: "Help...",
       run() {
         Utils.openUrlInDefaultBrowser('https://github.com/turbobabr/sketch-wanderer');
       }
