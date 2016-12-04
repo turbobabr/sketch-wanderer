@@ -23,12 +23,12 @@ Wanderer is very simple to use, just recall how navigation works in Finder and u
 | Move Up | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>↑</kbd> | Selects layer above |
 | Move Down | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>↓</kbd> | Selects layer below |
 | Expand Group    | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>→</kbd>   | Expands selected group, shape group or artboard |
-| Collapse Group    | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>←</kbd>   | Collapses selected group, shape group or artboard.<br> When run on already collapsed group, it's parent<br> will be collapsed. |
-| Select Up | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>↑</kbd> | Finder like multi-select by holding shift and selecting files<br> via arrows. |
-| Select Down    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>↓</kbd>   | Finder like multi-select by holding shift and selecting files<br> via arrows. |
+| Collapse Group    | <kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>←</kbd>   | Collapses selected group, shape group or artboard. When run on already collapsed group, it's parent will be collapsed. |
+| Select Up | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>↑</kbd> | Finder like multi-select by holding shift and selecting files via arrows. |
+| Select Down    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>↓</kbd>   | Finder like multi-select by holding shift and selecting files via arrows. |
 | Expand Artboard    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>→</kbd>   | Expands all child groups in the current artboard. |
-| Collapse Artboard    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>←</kbd>   | Collapses all child groups in the current artboard<br> and artboard itself.  |
-| Select Artboard Above    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>→</kbd>   | Selects artboard above current arboard.<br> In case some child layer is selected, this command will select artboard itself.  |
+| Collapse Artboard    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>←</kbd>   | Collapses all child groups in the current artboard and artboard itself.  |
+| Select Artboard Above    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>→</kbd>   | Selects artboard above current arboard. In case some child layer is selected, this command will select artboard itself.  |
 | Select Artboard Below    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>←</kbd>   | Selects artboard below current artboard. |
 
 
@@ -55,11 +55,63 @@ It's quite nice, but not perfect - the better solution is to use shorter set `co
 > Note: In case you'll need to revert changes, just run `Plugins -> Wanderer -> Shortcuts Schema -> control-option+arrows` command.
 
 <table>
+<thead>
+<tr>
+<th style="text-align:left">Command</th>
+<th style="text-align:left">Shortcut</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
 <tbody>
 <tr>
-<td width="25">text asdfasdfasdfaf </td>
-<td>text asdfsdf</td>
-<td width="120">Selects artboard above current arboard.<br> In case some child layer is selected, this command will select artboard itself.</td>
+<td style="text-align:left">Move Up</td>
+<td style="text-align:left" width="200"><kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>↑</kbd></td>
+<td style="text-align:left">Selects layer above</td>
+</tr>
+<tr>
+<td style="text-align:left">Move Down</td>
+<td style="text-align:left"><kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>↓</kbd></td>
+<td style="text-align:left">Selects layer below</td>
+</tr>
+<tr>
+<td style="text-align:left">Expand Group</td>
+<td style="text-align:left"><kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>→</kbd></td>
+<td style="text-align:left">Expands selected group, shape group or artboard</td>
+</tr>
+<tr>
+<td style="text-align:left">Collapse Group</td>
+<td style="text-align:left"><kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>←</kbd></td>
+<td style="text-align:left">Collapses selected group, shape group or artboard. When run on already collapsed group, it’s parent will be collapsed.</td>
+</tr>
+<tr>
+<td style="text-align:left">Select Up</td>
+<td style="text-align:left"><kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>↑</kbd></td>
+<td style="text-align:left">Finder like multi-select by holding shift and selecting files via arrows.</td>
+</tr>
+<tr>
+<td style="text-align:left">Select Down</td>
+<td style="text-align:left"><kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>↓</kbd></td>
+<td style="text-align:left">Finder like multi-select by holding shift and selecting files via arrows.</td>
+</tr>
+<tr>
+<td style="text-align:left">Expand Artboard</td>
+<td style="text-align:left"><kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>→</kbd></td>
+<td style="text-align:left">Expands all child groups in the current artboard.</td>
+</tr>
+<tr>
+<td style="text-align:left">Collapse Artboard</td>
+<td style="text-align:left"><kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>←</kbd></td>
+<td style="text-align:left">Collapses all child groups in the current artboard and artboard itself.</td>
+</tr>
+<tr>
+<td style="text-align:left">Select Artboard Above</td>
+<td style="text-align:left"><kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>→</kbd></td>
+<td style="text-align:left">Selects artboard above current arboard. In case some child layer is selected, this command will select artboard itself.</td>
+</tr>
+<tr>
+<td style="text-align:left">Select Artboard Below</td>
+<td style="text-align:left"><kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>←</kbd></td>
+<td style="text-align:left">Selects artboard below current artboard.</td>
 </tr>
 </tbody>
 </table>
