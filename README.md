@@ -34,7 +34,7 @@ Wanderer is very simple to use, just recall how navigation works in Finder and u
 <tbody>
 <tr>
 <td style="text-align:left" width="200">Move Up</td>
-<td style="text-align:center" width="180"><kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>↑</kbd></td>
+<td style="text-align:center" width="200"><kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>↑</kbd></td>
 <td style="text-align:left">Selects layer above</td>
 </tr>
 <tr>
@@ -74,12 +74,12 @@ Wanderer is very simple to use, just recall how navigation works in Finder and u
 </tr>
 <tr>
 <td style="text-align:left">Select Artboard Above</td>
-<td style="text-align:center"><kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>→</kbd></td>
+<td style="text-align:center"><kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>shift</kbd> + <kbd>↑</kbd></td>
 <td style="text-align:left">Selects artboard above current arboard. In case some child layer is selected, this command will select artboard itself.</td>
 </tr>
 <tr>
 <td style="text-align:left">Select Artboard Below</td>
-<td style="text-align:center"><kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>←</kbd></td>
+<td style="text-align:center"><kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>shift</kbd> + <kbd>↓</kbd></td>
 <td style="text-align:left">Selects artboard below current artboard.</td>
 </tr>
 </tbody>
