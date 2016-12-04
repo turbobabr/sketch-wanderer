@@ -14,6 +14,8 @@ import { Direction, ShortcutsSchema, TargetGroupType } from './constants';
 DefineSketchExtension({
   name: 'Wanderer',
   identifier: 'com.turbobabr.sketch.wanderer',
+  description: "A small SketchApp extension that introduces 'Finder' like features for working with layer list.",
+  author: "Andrey Shakhmin",
   version: '0.1.0',
   commands: {
     moveUp: {
