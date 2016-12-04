@@ -16,6 +16,12 @@ A small SketchApp extension that introduce frictionless `Finder` like navigation
 
 ## Simple Shortcuts Schema & Mission Control
 
+By default Wanderer uses `control-option+arrows` shortcuts for the most common commands like `Move Up`, `Move Down` and `Expand/Collapse Group`: 
+
+![Mission Control Shortcuts](https://github.com/turbobabr/sketch-wanderer/blob/master/docs/replacible-shortcuts.png?raw=true)
+
+It's quite nice, but not perfect - the better solution is to use shorter set `control+arrows`, which is by default occupied by `macOS: Mission Control`. Just in case you don't use these shortcuts, you could quickly replace them by using a special command by doing these simple steps:
+
 1. Open `System Preferences -> Keyboard -> Shortcuts -> Mission Control` and disable the following highlighted system shortcuts:
 
 ![Mission Control Shortcuts](https://github.com/turbobabr/sketch-wanderer/blob/master/docs/mission-control-shortcuts.png?raw=true)
@@ -23,6 +29,10 @@ A small SketchApp extension that introduce frictionless `Finder` like navigation
 2. In Sketch select `Plugins -> Wanderer -> Shortcuts Schema -> control+arrows` command:
 
 ![Mission Control Shortcuts](https://github.com/turbobabr/sketch-wanderer/blob/master/docs/mission-control-shortcuts.png?raw=true)
+
+3. Wait 10-15 seconds while Sketch reloading changes and check whether new shortcuts are setup correctly:
+
+![Mission Control Shortcuts](https://github.com/turbobabr/sketch-wanderer/blob/master/docs/replacible-shortcuts.png?raw=true)
  
 
 ## Feedback
@@ -33,7 +43,7 @@ If you discover any issue or have any suggestions for improvement of the plugin,
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Andrey Shakhmin
+Copyright (c) 2016 Andrey Shakhmin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
