@@ -95,15 +95,15 @@ By default Wanderer uses `control-option+arrows` shortcuts for the most common c
 
 It's quite nice, but not perfect - the better solution is to use shorter set `control+arrows`, which is by default occupied by `macOS: Mission Control`. Just in case you don't use these shortcuts, you could quickly replace them by using a special command by doing these simple steps:
 
-1. Open `System Preferences -> Keyboard -> Shortcuts -> Mission Control` and disable the following highlighted system shortcuts:
+1) Open `System Preferences -> Keyboard -> Shortcuts -> Mission Control` and disable the following highlighted system shortcuts:
 
 ![Mission Control Shortcuts](https://github.com/turbobabr/sketch-wanderer/blob/master/docs/mission-control-shortcuts.png?raw=true)
 
-2. In Sketch select `Plugins -> Wanderer -> Shortcuts Schema -> control+arrows` command:
+2) In Sketch select `Plugins -> Wanderer -> Shortcuts Schema -> control+arrows` command:
 
 ![Switching shortcuts schema](https://github.com/turbobabr/sketch-wanderer/blob/master/docs/switching-shortcuts-schema.png?raw=true)
 
-3. Wait 10-15 seconds while Sketch reloading changes and check whether new shortcuts are setup correctly:
+3) Wait 10-15 seconds while Sketch reloading changes and check whether new shortcuts are setup correctly:
 
 ![Successful Setup](https://github.com/turbobabr/sketch-wanderer/blob/master/docs/control-arrows-shortcuts.png?raw=true)
 
