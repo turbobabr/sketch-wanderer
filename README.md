@@ -4,7 +4,7 @@ A small SketchApp extension that introduce frictionless `Finder` like navigation
 
 > Huge thanks to [Sasha Okunev](https://twitter.com/okunev) who inspired me to build this plugin! :)
 
-![Screencast](./intro-screencast.git)
+![Screencast](./docs/intro-screencast.git)
 
 
 ## Feedback
