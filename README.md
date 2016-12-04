@@ -34,7 +34,7 @@ Wanderer is very simple to use, just recall how navigation works in Finder and u
 <tbody>
 <tr>
 <td style="text-align:left" width="200">Move Up</td>
-<td style="text-align:center" width="200"><kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>↑</kbd></td>
+<td style="text-align:center" width="230"><kbd>ctrl</kbd> + <kbd>option</kbd> + <kbd>↑</kbd></td>
 <td style="text-align:left">Selects layer above</td>
 </tr>
 <tr>
