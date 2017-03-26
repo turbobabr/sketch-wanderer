@@ -9,7 +9,7 @@ A small SketchApp extension that introduce frictionless `Finder` like navigation
 
 ## Install with Sketch Runner
 
-With Sketch Runner, just go to the `install` command and search for `[plugin name]`. Runner allows you to manage plugins and do much more to speed up your workflow in Sketch. [Download Runner here](http://www.sketchrunner.com).
+With Sketch Runner, just go to the `install` command and search for `Wanderer`. Runner allows you to manage plugins and do much more to speed up your workflow in Sketch. [Download Runner here](http://www.sketchrunner.com).
 
 ![Sketch Runner screenshot](https://raw.githubusercontent.com/turbobabr/sketch-wanderer/master/docs/runner-installation.png)
 
