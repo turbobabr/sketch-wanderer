@@ -1,0 +1,165 @@
+{
+    "name": "Wanderer",
+    "identifier": "com.turbobabr.sketch.wanderer",
+    "description": "A small SketchApp extension that introduces 'Finder' like features for working with layer list.",
+    "author": "Andrey Shakhmin",
+    "version": "0.1.0",
+    "commands": [
+        {
+            "name": "Move Up",
+            "shortcut": "control option ↑",
+            "identifier": "moveUp",
+            "script": "plugin.js",
+            "handlers": {
+                "run": "___moveUp_run_handler_",
+                "actions": {}
+            }
+        },
+        {
+            "name": "Move Down",
+            "shortcut": "control option ↓",
+            "identifier": "moveDown",
+            "script": "plugin.js",
+            "handlers": {
+                "run": "___moveDown_run_handler_",
+                "actions": {}
+            }
+        },
+        {
+            "name": "Select Up",
+            "shortcut": "control shift ↑",
+            "identifier": "selectUp",
+            "script": "plugin.js",
+            "handlers": {
+                "run": "___selectUp_run_handler_",
+                "actions": {}
+            }
+        },
+        {
+            "name": "Select Down",
+            "shortcut": "control shift ↓",
+            "identifier": "selectDown",
+            "script": "plugin.js",
+            "handlers": {
+                "run": "___selectDown_run_handler_",
+                "actions": {}
+            }
+        },
+        {
+            "name": "Select Artboard Above",
+            "shortcut": "control shift option ↑",
+            "identifier": "selectArtboardAbove",
+            "script": "plugin.js",
+            "handlers": {
+                "run": "___selectArtboardAbove_run_handler_",
+                "actions": {}
+            }
+        },
+        {
+            "name": "Select Artboard Below",
+            "shortcut": "control shift option ↓",
+            "identifier": "selectArtboardBelow",
+            "script": "plugin.js",
+            "handlers": {
+                "run": "___selectArtboardBelow_run_handler_",
+                "actions": {}
+            }
+        },
+        {
+            "name": "Expand Group",
+            "shortcut": "control option →",
+            "identifier": "expand",
+            "script": "plugin.js",
+            "handlers": {
+                "run": "___expand_run_handler_",
+                "actions": {}
+            }
+        },
+        {
+            "name": "Expand Artboard",
+            "shortcut": "control shift →",
+            "identifier": "expandArtboard",
+            "script": "plugin.js",
+            "handlers": {
+                "run": "___expandArtboard_run_handler_",
+                "actions": {}
+            }
+        },
+        {
+            "name": "Collapse Group",
+            "shortcut": "control option ←",
+            "identifier": "collapse",
+            "script": "plugin.js",
+            "handlers": {
+                "run": "___collapse_run_handler_",
+                "actions": {}
+            }
+        },
+        {
+            "name": "Collapse Artboard",
+            "shortcut": "control shift ←",
+            "identifier": "collapseArtboard",
+            "script": "plugin.js",
+            "handlers": {
+                "run": "___collapseArtboard_run_handler_",
+                "actions": {}
+            }
+        },
+        {
+            "name": "✓  control-option+arrows",
+            "identifier": "controlOptionSchema",
+            "script": "plugin.js",
+            "handlers": {
+                "run": "___controlOptionSchema_run_handler_",
+                "actions": {}
+            }
+        },
+        {
+            "name": "     control+arrows",
+            "identifier": "controlSchema",
+            "script": "plugin.js",
+            "handlers": {
+                "run": "___controlSchema_run_handler_",
+                "actions": {}
+            }
+        },
+        {
+            "name": "Help...",
+            "identifier": "help",
+            "script": "plugin.js",
+            "handlers": {
+                "run": "___help_run_handler_",
+                "actions": {}
+            }
+        }
+    ],
+    "menu": {
+        "items": [
+            "moveUp",
+            "moveDown",
+            "-",
+            "selectUp",
+            "selectDown",
+            "-",
+            "expand",
+            "collapse",
+            "-",
+            "expandArtboard",
+            "collapseArtboard",
+            "-",
+            "selectArtboardAbove",
+            "selectArtboardBelow",
+            "-",
+            {
+                "title": "Shortcuts Schema",
+                "items": [
+                    "controlOptionSchema",
+                    "controlSchema"
+                ]
+            },
+            "-",
+            "help"
+        ]
+    },
+    "disableCocoaScriptPreprocessor": true
+}
