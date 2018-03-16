@@ -1,4 +1,7 @@
-build/
+
+# build artefacts
+Wanderer.sketchplugin.zip
+
 node_modules
 .DS_Store
 .idea

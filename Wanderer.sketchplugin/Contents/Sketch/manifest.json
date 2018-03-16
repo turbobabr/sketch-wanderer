@@ -1,0 +1,118 @@
+{
+  "identifier": "com.turbobabr.sketch.wanderer",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Move Up",
+      "identifier": "moveUp",
+      "shortcut": "control option ↑",
+      "script": "plugin.js"
+    },
+    {
+      "name": "Move Down",
+      "identifier": "moveDown",
+      "shortcut": "control option ↓",
+      "script": "plugin.js"
+    },
+    {
+      "name": "Select Up",
+      "identifier": "selectUp",
+      "shortcut": "control shift ↑",
+      "script": "plugin.js"
+    },
+    {
+      "name": "Select Down",
+      "identifier": "selectDown",
+      "shortcut": "control shift ↓",
+      "script": "plugin.js"
+    },
+    {
+      "name": "Select Artboard Above",
+      "identifier": "selectArtboardAbove",
+      "shortcut": "control shift option ↑",
+      "script": "plugin.js"
+    },
+    {
+      "name": "Select Artboard Below",
+      "identifier": "selectArtboardBelow",
+      "shortcut": "control shift option ↓",
+      "script": "plugin.js"
+    },
+    {
+      "name": "Expand Group",
+      "identifier": "expand",
+      "shortcut": "control option →",
+      "script": "plugin.js"
+    },
+    {
+      "name": "Expand Artboard",
+      "identifier": "expandArtboard",
+      "shortcut": "control shift →",
+      "script": "plugin.js"
+    },
+    {
+      "name": "Collapse Group",
+      "identifier": "collapse",
+      "shortcut": "control option ←",
+      "script": "plugin.js"
+    },
+    {
+      "name": "Collapse Artboard",
+      "identifier": "collapseArtboard",
+      "shortcut": "control shift ←",
+      "script": "plugin.js"
+    },
+    {
+      "name": "✓  control-option+arrows",
+      "identifier": "controlOptionSchema",
+      "script": "plugin.js"
+    },
+    {
+      "name": "     control+arrows",
+      "identifier": "controlSchema",
+      "script": "plugin.js"
+    },
+    {
+      "name": "Help...",
+      "identifier": "help",
+      "script": "plugin.js"
+    }
+  ],
+  "menu": {
+    "items": [
+      "moveUp",
+      "moveDown",
+      "-",
+      "selectUp",
+      "selectDown",
+      "-",
+      "expand",
+      "collapse",
+      "-",
+      "expandArtboard",
+      "collapseArtboard",
+      "-",
+      "selectArtboardAbove",
+      "selectArtboardBelow",
+      "-",
+      {
+        "title": "Shortcuts Schema",
+        "items": [
+          "controlOptionSchema",
+          "controlSchema"
+        ]
+      },
+      "-",
+      "help"
+    ]
+  },
+  "version": "1.0.1",
+  "description": "A small SketchApp extension that introduces 'Finder' like features for working with layer list.",
+  "homepage": "https://github.com/turbobabr/sketch-wanderer#readme",
+  "name": "Wanderer",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com/turbobabr/sketch-wanderer/master/.appcast.xml",
+  "author": "Andrey Shakhmin",
+  "authorEmail": "andrey.shakhmin@gmail.com"
+}

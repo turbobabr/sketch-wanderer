@@ -1,6 +1,6 @@
 # Sketch Wanderer
 
-A small SketchApp extension that introduce frictionless `Finder` like navigation in layer list by using beloved arrow keys and simple shortcuts. No more `shift`/`shift-tab` nightmare! 
+A small SketchApp extension that introduce frictionless `Finder` like navigation in layer list by using beloved arrow keys and simple shortcuts. No more `shift`/`shift-tab` nightmare!
 
 > Huge thanks to [Sasha Okunev](https://twitter.com/okunev) who inspired me to build this plugin! :)
 
@@ -17,8 +17,8 @@ With Sketch Runner, just go to the `install` command and search for `Wanderer`. 
 
 ## Manual Installation
 
-1. [Download](https://github.com/turbobabr/sketch-wanderer/raw/master/releases/sketch-wanderer-0.1.0.zip) the plugin.
-2. Unpack the archive and double click on `com.turbobabr.sketch.wanderer.sketchplugin` file to install it into Sketch plugins folder.
+1. [Download](https://github.com/turbobabr/sketch-wanderer/releases/download/v1.0.1/Wanderer.sketchplugin.zip) the plugin.
+2. Unpack the archive and double click on `Wanderer.sketchplugin` file to install it into Sketch plugins folder.
 3. Enjoy! :)
 
 
@@ -95,7 +95,7 @@ Wanderer is very simple to use, just recall how navigation works in Finder and u
 
 ## Simple Shortcuts Schema & Mission Control
 
-By default Wanderer uses `control-option+arrows` shortcuts for the most common commands like `Move Up`, `Move Down` and `Expand/Collapse Group`: 
+By default Wanderer uses `control-option+arrows` shortcuts for the most common commands like `Move Up`, `Move Down` and `Expand/Collapse Group`:
 
 ![Mission Control Shortcuts](https://github.com/turbobabr/sketch-wanderer/blob/master/docs/replacible-shortcuts.png?raw=true)
 
@@ -114,8 +114,18 @@ It's quite nice, but not perfect - the better solution is to use shorter set `co
 ![Successful Setup](https://github.com/turbobabr/sketch-wanderer/blob/master/docs/control-arrows-shortcuts.png?raw=true)
 
 > Note: In case you'll need to revert changes, just run `Plugins -> Wanderer -> Shortcuts Schema -> control-option+arrows` command.
- 
- 
+
+
+
+## Version history
+
+**Wanderer - 1.0.1: 3/16/2018**
+* Sketch 49 support
+* New plugins auto-updating system support
+
+**Wanderer 1.0.0: 12/5/2016**
+* First version
+
 
 ## Feedback
 
@@ -127,7 +137,7 @@ If you discover any issue or have any suggestions for improvement of the plugin,
 
 The MIT License (MIT)
 
-Copyright (c) 2016 Andrey Shakhmin
+Copyright (c) 2017-2018 Andrey Shakhmin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
